@@ -1,7 +1,8 @@
 #header-nav{
-	background-color: #8A8989;
+	background-color: #64569B;
 	border-radius: 0;
 	border: 0;
+	height: auto;
 }
 
 .navbar-brand {
@@ -30,12 +31,23 @@
 
 #nav-list a{
 	color: white;
+	
+}
+
+.lien_header{
+
 }
 
 #nav-list a:hover{
-	color: red;
+	background-color: #A22202;
+	border-style: double;
+	border-radius: 50px;
 }
 
 .icon-bar{
 	border: 1px solid red;
+}
+
+body{
+	background-color: #444952
 }
