@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg-image{
+	background: rgb(35,35,40);
+	background: linear-gradient(90deg, rgba(35,35,40,1) 0%, rgba(0,0,0,1) 0%, rgba(24,11,19,0.6643032212885154) 25%, rgba(62,4,88,1) 100%);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.b-login{
+
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	padding: 60px 30px;
+	z-index: 999;
+	box-shadow: -1px 4px 28px 0px rgba(255,0,0, 0.75);
+
+
+}
+
+.b-login:hover{
+	box-shadow: -1px 4px 28px 0px rgba(0, 218, 59, 0.75);
+
+}
+
+.b-login header{
+	color: white;
+	width: 350px;
+	font-size: 33px;
+	font-weight: 600;
+	margin: 0 0 35px 0;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.champ{
+	position: relative;
+	height: 45px;
+	width: 100%;
+	display: flex;	
+	background-color: none;
+}
+
+
+
+.champ input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	background-color: transparent;
+	color:  white;
+}
+
+
+
+
+.champ span{
+	line-height: 40px;
+}
+
+.submit input{
+
+	border:none;
+	margin-top: 20px;
+	box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.submit input:hover{
+	background-color:rgba(0, 218, 59, 0.75);
+}
+
+.mpdo{
+
+	text-align: left;
+	margin-top: 20px;
+}
+
+.mpdo a{
+	text-decoration:none;
+	color: #fff;
+
+}
+
+.auto_connect{
+
+	margin-top: 60px;
+	margin-bottom: 40px
+}
+
+.auto_connect span{
+color:white;
+
+
+}
+
+.lien{
+	display: flex;
+	color: white;
+}
+.lien .fb, .lien .google{
+	font-size: 20px;
+	width: 100%;
+	padding: 10px;
+}
+
+.lien .fb{
+	background: blue;
+	margin-right: 5px;
+}
+
+.lien .google{
+	background: red;
+	margin-left: 5px;
+}
+
+.lien .fb span{
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 7px;
+	font-family: 'Verdana', sans-serif;
+
+}
+
+.lien .google span{
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 7px;
+	font-family: 'Verdana', sans-serif;
+
+}
+.lien a{
+	text-decoration: none;
+	color: #fff
+}
+
+
+
+.creer_un{
+	color: #fff;
+	font-family: 'Verdana', sans-serif;
+	margin-top: 10px
+
+	
+}
+.creer_un span a{
+	text-decoration: none;
+	color: #
+
+}

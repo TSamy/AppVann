@@ -1,8 +1,15 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 #header-nav{
 	background-color: #64569B;
 	border-radius: 0;
 	border: 0;
-	height: auto;
+	height: 250px;
+	margin: 0;
 }
 
 .navbar-brand {
@@ -34,14 +41,11 @@
 	
 }
 
-.lien_header{
-
-}
-
 #nav-list a:hover{
-	background-color: #444952;
+	background-color:#444952  ;
 	border-style: double;
 	border-radius: 50px;
+	border-color: #64569B;
 }
 
 .icon-bar{
@@ -50,4 +54,219 @@
 
 body{
 	background-color: #444952
+}
+
+#users a{
+	float: right;
+	clear:right;
+	margin-bottom: 15px;
+	margin-top: 15;
+	color: white;
+
+}
+
+#users a{
+	background-color:#444952  ;
+	border-style: double;
+	border-radius: 50px;
+	border-color: #64569B;
+}
+
+
+.glyphicon{
+	background-color:none;
+}
+
+
+
+
+
+footer{
+	margin-bottom: 0;
+	position: relative;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;
+	*/
+	width: 100%;
+	/*align-self: center;*/
+	background-color: #0C0C0C ;
+
+}
+
+
+
+.footer-rec1{
+	position: relative;
+	width: 90%;
+	background-color: black;
+
+	/*display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;*/
+
+}
+
+
+
+.footer-rec2{
+	position: relative;
+	width: 80%;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+
+
+	/*position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background: rgb( 254, 254, 254, 0.1);
+	*/
+	background-color: red;
+}
+
+
+
+
+.about{
+	margin-left: 5%;
+	position: relative;
+	width:45%;
+	background-color: #8f4711;
+	float: left;
+}
+
+
+
+
+.connect{
+	
+	position: relative;
+	width:50%;
+	background-color: #8f4711;
+	float: right;
+}
+
+
+
+
+
+
+.footer-title{
+	margin: 0 auto;
+	width: 10%;	
+	background-color: none;
+	text-align: center;
+	clear: right;
+	color: #5D0673;
+	font-size:1.5em;
+}
+
+
+
+.footer_block{
+	margin: 0 auto;
+	width: 80%;	
+	overflow: auto;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-top: 50px;
+
+	color: white;
+	
+
+}
+
+
+.Apropos{
+	float: left;
+	margin-right:7.14%;
+	width: 6%;
+	border:2px solid black;
+	color: white;
+}
+
+
+
+.Blog{
+	width: 6%;
+	float: left;
+	margin-right:7.14%;
+	border:2px solid black;
+}
+
+
+
+.Livraison{
+	width: 6%;
+	float: left;
+	margin-right:7.14%;
+	border:2px solid black;
+
+}
+
+
+
+.Emplois{
+	width: 6%;
+	float: left;
+	margin-right:7.14%;
+	border:2px solid black;
+
+}
+
+
+
+.Contact{
+	width: 6%;
+	float: left;
+	border:2px solid black;
+
+}
+
+.fb_icon{
+	width: 30px;
+	margin-right: 10%;
+}
+
+.fb_icon{
+	width: 30px;
+	margin-right: 10%;
+}
+
+.whatsapp_icon{
+	width: 30px;
+	margin-right: 10%;
+}
+
+.instagram_icom{
+	width: 30px;
+	margin-right: 10%;
+}
+
+.twitter_icon{
+	width: 30px;
+	margin-right: 10%;
+}
+
+.youtube_icon{
+	width: 30px;
+}
+
+.media_icon{
+	margin: 0 auto;
+	width: 25%;	
+	margin-top: 40px;
+	border: 2px solid black;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
